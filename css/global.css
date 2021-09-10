@@ -41,3 +41,8 @@ a:hover {
     background-color: var(--primary-dark);
     border-color: var(--primary-dark);
 }
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot.active:hover span{
+    background: var(--primary);
+}
